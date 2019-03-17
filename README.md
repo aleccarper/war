@@ -1,21 +1,11 @@
 # War
 
-**TODO: Add description**
+**War (Card Game) Simulator**
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `war` to your list of dependencies in `mix.exs`:
+## Running a set of games
 
 ```elixir
-def deps do
-  [
-    {:war, "~> 0.1.0"}
-  ]
-end
+iex -S mix
+War.run_set(20)
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/war](https://hexdocs.pm/war).
 
